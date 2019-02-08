@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Some more fun</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/6D1F1E34-88F6-B34C-A72A-8D3A566D7EFC/main.js" charset="UTF-8"></script></head>
+	<body style="background-image:url(img/mathback.jpg);background-size:  ">
+		<a href="trig1.html" class="btn btn-outline-dark text-light m-5 "> <i class="fa fa-undo">Revise</i>  </a>
+		<br>
+		<div class="card col-12 ">      
+      <div class="card-header display-4">
+        <h1> Time for some fun!!  </h1></div>
+      <div class="card-body lead" style="font-size: 25px " >
+      Try and guess which two tiles match. And if you can't,don't fret! Just click the answer button below to display the correct pairs.Have fun wracking those brains!!
+      </div>
+
+		<br><div class="row">	<div class="container-fluid col-md-6 " style="text-align: center;">
+			
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v6"><br/>1. cos&#x2205; <br/>45&#xb0;<br/></label>
+				<label class="btn btn-outline-dark col-4 text-light" id="W3">1<br/>A. --<br/>√2</label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v7"><br/>2. cot&#x2205; <br/>60&#xb0;<br/></label>
+				<label class="btn btn-outline-dark col-4 text-light" id="W8"><br/>B. not defined<br/></label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v9"><br/>3. tan&#x2205; <br/>0&#xb0;<br/></label>
+				
+				<label class="btn btn-outline-dark col-4 text-light" id="W11">2<br/>C. --<br/>√3</label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v10"><br/>4. sec&#x2205; <br/>30&#xb0;<br/></label>
+				<label class=" btn btn-outline-dark text-light col-4" id="W1"><br/>D. 0<br/></label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v11"><br/>5. cot&#x2205; <br/>0&#xb0;<br/></label>
+				
+				<label class="btn btn-outline-dark col-4 text-light" id="W7">1<br/>E. --<br/>√3</label>
+				<div>
+					<label class="btn btn-outline-dark col-4 text-light" id="v12"><br/>6. cosec&#x2205; <br/>45&#xb0;<br/></label>
+					<label class="btn btn-outline-dark col-4 text-light" id="W3">1<br/>F. --<br/>√2</label>
+				</div>
+				
+			</div><br>
+			<div class="btn btn-outline-dark " onclick="btn1();">Answers</div>
+			<label class="form-control col-8 m-auto" style="display: none;" id="11">1 = A | 2 = E | 3 = D | 4 = C | 5 = B | 6 = F</label>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+		<div class="container-fluid col-md-6 " style="text-align: center;">
+			<div>
+				<label class="btn btn-outline-dark text-light col-4" id="v1"><br/>1. sin&#x2205; <br/> 0&#xb0; <br/></label>
+				<label class="btn btn-outline-dark text-light col-4" id="W2">1<br/>A. --<br/>2</label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark text-light col-4" id="v2"><br/>2. sin&#x2205; <br/> 30&#xb0;<br/></label>
+				<label class="btn btn-outline-dark col-4 text-light" id="W8"><br/>B. not defined<br/></label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v3"><br/>3. cos&#x2205;<br/>45&#xb0;<br/></label>
+				<label class="btn btn-outline-dark col-4 text-light" id="W5"><br/>C. 1<br/></label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v4"><br/>4. tan&#x2205;<br/> 90&#xb0;<br/></label>
+				<label class="btn btn-outline-dark col-4 text-light" id="W3">1<br/>D. --<br/>√2</label>
+			</div>
+			<div>
+				<label class="btn btn-outline-dark col-4 text-light" id="v5"><br/>5. cos&#x2205; <br/>0&#xb0;<br/></label>
+				<label class=" btn btn-outline-dark text-light col-4" id="W1"><br/>E. 0<br/></label>
+			</div>
+			<div><label class="btn btn-outline-dark col-4 text-light" id="v12"><br/>6. cosec&#x2205; <br/>60&#xb0;<br/></label>
+			
+			<label class="btn btn-outline-dark col-4 text-light" id="W11">2<br/>F. --<br/>√3</label>
+			</div><div class="btn btn-outline-dark " onclick="btn2();">Answers</div>
+			<label class="form-control col-8 m-auto" style="display: none;" id="111">1 = E | 2 = A | 3 = D | 4 = B | 5 = C | 6 = Fs</label>
+		</div>
+		
+		
+	</div>
+	<<br>
+	<br>
+	<br>
+	<script type="text/javascript">
+		function btn1(argument) {
+		
+	document.getElementById('11').style.display = 'block';
+		}
+		function btn2(argument) {
+		
+	document.getElementById('111').style.display = 'block';
+		}
+	</script>
+</body>
+</html>

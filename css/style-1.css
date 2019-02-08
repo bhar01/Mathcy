@@ -1,0 +1,57 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+#body{
+	background-size: cover;
+	
+}
+#navbrand{
+	
+	-wedkit-animation-name:navb;
+	-wedkit-animation-duration:20s;
+	animation-name: navb;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+@-webkit-keyframes navb{
+	0%{color: white};
+	25%{color: black};
+	50%{color: red};
+	75%{color:  white};
+	100%{color: white};
+}
+@keyframes navb{
+	0%{background-color: black};
+	25%{background-color: black};
+	50%{background-color: };
+	75%{background-color: white};
+	
+	100%{color: white};
+}
+#navbr{
+	-wedkit-animation-name:navs;
+	-wedkit-animation-duration:20s;
+	animation-name: navs;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+
+}
+@-webkit-keyframes navs{
+	from{background-color: white;}
+	to{background-color: black;}
+}
+@keyframes navs{
+	from  {background-color:white;}
+	text{background-color: black;}
+}
+
+
+
+
+
+
+
+
+
+
